@@ -1,0 +1,14 @@
+header {
+    margin: 0 auto;
+    width: 80vw;
+    max-width: 1200px;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+
+    nav {
+        height: 70px;
+        border-bottom: 1px solid silver;
+
+    }
+}

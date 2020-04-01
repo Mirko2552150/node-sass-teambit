@@ -1,1 +1,18 @@
 /* INSERISCO SEQUENZA DI ATTRIBUTI CSS UTILIZZATI SPESSO DURANTE IL LAVORO */
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-betwenn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin flex-around {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
