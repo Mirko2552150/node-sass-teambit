@@ -1,13 +1,9 @@
 header {
-    margin: 0 auto;
-    width: 80vw;
-    max-width: 1200px;
-    position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
+    @include container-full-width;
     color: $color_prim; // richiamiamo le ns funzioni con $
     font-size: 14px;
     font-weight: bold;
+    position: fixed;
 
     nav {
         height: 70px;

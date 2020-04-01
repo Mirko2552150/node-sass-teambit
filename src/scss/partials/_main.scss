@@ -1,0 +1,24 @@
+main {
+    top: 70px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    .container {
+        width: 80vw;
+        max-width: 1200px;
+        display: flex;
+        .jumbo-left {
+            width: 50%;
+            padding: 20px;
+        }
+        .jumbo-right {
+            width: 50%;
+            img {
+                width: 100%;
+                height: 100%;
+                
+            }
+        }
+
+    }
+}
