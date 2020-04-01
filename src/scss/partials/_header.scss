@@ -5,10 +5,33 @@ header {
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
+    color: $color_prim; // richiamiamo le ns funzioni con $
 
     nav {
         height: 70px;
         border-bottom: 1px solid silver;
+        @include flex-center;
+        .logo {
+            width: 50%;
 
+        }
+        .lista-menu {
+            width: 50%;
+            @include flex-center; // richiamiamo i ns mixin con la @include
+            justify-content: flex-end;
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+                list-style-type: none;
+
+                li {
+                    padding: 15px;
+                    cursor: pointer;
+                    &:hover { // la & equivale a THIS in JS
+                        color: $color_sec;
+                    }
+                }
+            }
+        }
     }
 }

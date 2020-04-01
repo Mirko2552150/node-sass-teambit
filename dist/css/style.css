@@ -41,11 +41,42 @@ header {
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
+  color: #58402c;
 }
 
 header nav {
   height: 70px;
   border-bottom: 1px solid silver;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav .logo {
+  width: 50%;
+}
+
+header nav .lista-menu {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+header nav .lista-menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+header nav .lista-menu ul li {
+  padding: 15px;
+  cursor: pointer;
+}
+
+header nav .lista-menu ul li:hover {
+  color: #2e4691;
 }
 
 /* MAIN */
