@@ -42,6 +42,8 @@ header {
   left: 50%;
   transform: translateX(-50%);
   color: #58402c;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 header nav {
@@ -77,6 +79,18 @@ header nav .lista-menu ul li {
 
 header nav .lista-menu ul li:hover {
   color: #2e4691;
+}
+
+header nav .lista-menu ul li:last-child {
+  color: #2e4691;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #2e4691;
+}
+
+header nav .lista-menu ul li:last-child:hover {
+  color: white;
+  background-color: #2e4691;
 }
 
 /* MAIN */

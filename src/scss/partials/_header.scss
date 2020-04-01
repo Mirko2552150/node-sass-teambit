@@ -6,6 +6,8 @@ header {
     left: 50%;
     transform: translateX(-50%);
     color: $color_prim; // richiamiamo le ns funzioni con $
+    font-size: 14px;
+    font-weight: bold;
 
     nav {
         height: 70px;
@@ -29,6 +31,17 @@ header {
                     cursor: pointer;
                     &:hover { // la & equivale a THIS in JS
                         color: $color_sec;
+                    }
+                    &:last-child {
+
+                        color: $color_sec;
+                        background-color: white;
+                        border-radius: 5px;
+                        border: 1px solid $color_sec;
+                        &:hover { // la & equivale a THIS in JS
+                            color: white;
+                            background-color: $color_sec;
+                        }
                     }
                 }
             }
