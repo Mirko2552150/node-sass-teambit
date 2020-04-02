@@ -31,8 +31,7 @@ main {
                         padding: 10px;
                     }
                     button {
-                        @include bottone(50px, 200px); // lo usiamo con le VAR in ingresso
-
+                        @include bottone(50px, 200px); // Var
                     }
                 }
                 .link-jumbo-left-down {

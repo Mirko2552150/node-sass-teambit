@@ -64,8 +64,6 @@
 @mixin bottone($altezza, $larghezza) {
     width: $larghezza;
     height: $altezza;
-    // width: 200px;
-    // height: 50px;
     border-radius: 5px;
     background-color: $color_sec;
     border: 1px solid $color_sec;
