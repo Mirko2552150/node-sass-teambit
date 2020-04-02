@@ -3,6 +3,7 @@ main {
     position: relative;
     display: flex;
     justify-content: center;
+    color: $color_prim;
     .container {
         @include containerA;
         &-jumbo {
@@ -11,6 +12,44 @@ main {
         .jumbo-left {
             width: 50%;
             padding: 20px;
+            .jumbo-left-top {
+                padding-bottom: 20px;
+                font-size: 25px;
+                h1 {
+                    line-height: 90px;
+                }
+
+            }
+            .jumbo-left-down {
+                .text-jumbo-left-down {
+                    padding-bottom: 20px;
+                }
+                .button-jumbo-left-down {
+                    padding-bottom: 20px;
+                    button {
+                        width: 200px;
+                        height: 50px;
+                        border-radius: 5px;
+                        background-color: $color_sec;
+                        border: 1px solid $color_sec;
+                        cursor: pointer;
+                        color: white;
+                        &:hover {
+                            background-color: #233569;
+                        }
+                    }
+                }
+                .link-jumbo-left-down {
+
+                    span {
+                        font-size: 14px;
+                        cursor: pointer;
+                        &:hover {
+                            color: $color_sec;
+                        }
+                    }
+                }
+            }
         }
         .jumbo-right {
             width: 50%;

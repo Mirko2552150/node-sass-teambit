@@ -100,6 +100,7 @@ main {
   position: relative;
   display: flex;
   justify-content: center;
+  color: #58402c;
 }
 
 main .container {
@@ -115,6 +116,46 @@ main .container-jumbo {
 main .container .jumbo-left {
   width: 50%;
   padding: 20px;
+}
+
+main .container .jumbo-left .jumbo-left-top {
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+
+main .container .jumbo-left .jumbo-left-top h1 {
+  line-height: 90px;
+}
+
+main .container .jumbo-left .jumbo-left-down .text-jumbo-left-down {
+  padding-bottom: 20px;
+}
+
+main .container .jumbo-left .jumbo-left-down .button-jumbo-left-down {
+  padding-bottom: 20px;
+}
+
+main .container .jumbo-left .jumbo-left-down .button-jumbo-left-down button {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #2e4691;
+  border: 1px solid #2e4691;
+  cursor: pointer;
+  color: white;
+}
+
+main .container .jumbo-left .jumbo-left-down .button-jumbo-left-down button:hover {
+  background-color: #233569;
+}
+
+main .container .jumbo-left .jumbo-left-down .link-jumbo-left-down span {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+main .container .jumbo-left .jumbo-left-down .link-jumbo-left-down span:hover {
+  color: #2e4691;
 }
 
 main .container .jumbo-right {
