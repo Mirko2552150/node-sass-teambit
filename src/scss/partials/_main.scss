@@ -27,8 +27,11 @@ main {
                 }
                 .button-jumbo-left-down {
                     padding-bottom: 20px;
+                    span {
+                        padding: 10px;
+                    }
                     button {
-                        @include bottone;
+                        @include bottone(50px, 200px); // lo usiamo con le VAR in ingresso
 
                     }
                 }

@@ -158,6 +158,10 @@ main .container .jumbo-left .jumbo-left-down .button-jumbo-left-down {
   padding-bottom: 20px;
 }
 
+main .container .jumbo-left .jumbo-left-down .button-jumbo-left-down span {
+  padding: 10px;
+}
+
 main .container .jumbo-left .jumbo-left-down .button-jumbo-left-down button {
   width: 200px;
   height: 50px;
