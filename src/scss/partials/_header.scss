@@ -11,7 +11,6 @@ header {
         @include flex-center;
         .logo {
             width: 50%;
-
         }
         .lista-menu {
             width: 50%;
@@ -25,18 +24,21 @@ header {
                 li {
                     padding: 15px;
                     cursor: pointer;
+                    
                     &:hover { // la & equivale a THIS in JS
                         color: $color_sec;
+                        
                     }
                     &:last-child {
-
                         color: $color_sec;
                         background-color: white;
                         border-radius: 5px;
                         border: 1px solid $color_sec;
+                        
                         &:hover { // la & equivale a THIS in JS
                             color: white;
                             background-color: $color_sec;
+                            
                         }
                     }
                 }

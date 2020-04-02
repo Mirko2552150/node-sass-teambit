@@ -4,19 +4,20 @@ main {
     display: flex;
     justify-content: center;
     .container {
-        width: 80vw;
-        max-width: 1200px;
-        display: flex;
+        @include containerA;
+        &-jumbo {
+            padding-top: 70px;
+        }
         .jumbo-left {
             width: 50%;
             padding: 20px;
         }
         .jumbo-right {
             width: 50%;
+
             img {
                 width: 100%;
-                height: 100%;
-                
+
             }
         }
 
