@@ -318,3 +318,57 @@ main .container-main-two .right-flex {
 
 /* FOOTER */
 
+footer {
+  width: 80vw;
+  max-width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  background-color: #ffe7d2;
+  padding-top: 150px;
+  color: #58402c;
+  padding-bottom: 100px;
+}
+
+footer .footer-div-uno {
+  width: calc(100% / 7 * 2);
+  height: 100%;
+}
+
+footer .footer-div-uno .image-footer-div-uno {
+  float: left;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .footer-div-uno .image-footer-div-uno img {
+  width: 40px;
+  height: 40px;
+}
+
+footer .footer-div-uno .text-footer-div-uno {
+  float: left;
+  width: 80%;
+  font-weight: bold;
+}
+
+footer .footer-div-uno .text-footer-div-uno span {
+  font-size: 18px;
+  color: #2e4691;
+  cursor: pointer;
+}
+
+footer .footer-div-uno .text-footer-div-uno span:hover {
+  text-decoration: underline;
+}
+
+footer .footer-div {
+  width: calc(100% / 7);
+  height: 100%;
+}
+
+footer .footer-div ul {
+  list-style-type: none;
+}
+
